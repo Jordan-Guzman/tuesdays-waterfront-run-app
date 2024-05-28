@@ -15,9 +15,24 @@ struct ContentView: View {
                 Image("Logo")
                     .imageScale(.large)
                     .foregroundStyle(.tint)
+                
+                Button("Sign In") {
+                    
+                }
+                .buttonStyle(.bordered)
+                .foregroundColor(Color("TWR Blue"))
+                .background(Color.white)
+                .cornerRadius(40)
+                
+                Button("Register") {
+                    
+                }
+                .buttonStyle(.bordered)
+                .foregroundColor(Color("TWR Blue"))
+                .background(Color.white)
+                .cornerRadius(40)
             }
         }
-//        .padding()
     }
 }
 

@@ -2,20 +2,22 @@
 //  ContentView.swift
 //  TWR
 //
-//  Created by Software Development on 5/27/24.
+//  Created by Jordan Guzman on 5/27/24.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            Color("TWR Blue").ignoresSafeArea()
+            VStack {
+                Image("Logo")
+                    .imageScale(.large)
+                    .foregroundStyle(.tint)
+            }
         }
-        .padding()
+//        .padding()
     }
 }
 

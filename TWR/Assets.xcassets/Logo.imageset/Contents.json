@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "TUESDAYS WATERFRONT RUN LOGO-2021 white-01.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

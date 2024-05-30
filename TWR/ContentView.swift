@@ -13,24 +13,24 @@ struct ContentView: View {
             Color("TWR Blue").ignoresSafeArea()
             VStack {
                 Image("Logo")
-                    .imageScale(.large)
-                    .foregroundStyle(.tint)
-                
-                Button("Sign In") {
+                    .position(x:UIScreen.main.bounds.width/2,
+                              y:UIScreen.main.bounds.height/4)
+                VStack {
+                    Button("Sign In") {}
+                        .buttonStyle(.bordered)
+                        .foregroundColor(Color("TWR Blue"))
+                        .background(Color.white)
+                        .cornerRadius(40)
                     
+                    Button("Register") {}
+                        .buttonStyle(.bordered)
+                        .foregroundColor(Color("TWR Blue"))
+                        .background(Color.white)
+                        .cornerRadius(40)
                 }
-                .buttonStyle(.bordered)
-                .foregroundColor(Color("TWR Blue"))
-                .background(Color.white)
-                .cornerRadius(40)
+                    .position(x:UIScreen.main.bounds.width/2,
+                              y:UIScreen.main.bounds.height/12)
                 
-                Button("Register") {
-                    
-                }
-                .buttonStyle(.bordered)
-                .foregroundColor(Color("TWR Blue"))
-                .background(Color.white)
-                .cornerRadius(40)
             }
         }
     }

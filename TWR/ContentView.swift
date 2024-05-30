@@ -12,9 +12,14 @@ struct ContentView: View {
         ZStack {
             Color("TWR Blue").ignoresSafeArea()
             VStack {
-                Image("Logo")
-                    .position(x:UIScreen.main.bounds.width/2,
-                              y:UIScreen.main.bounds.height/4)
+                GeometryReader { geo in
+                    Image("Logo")
+                        .frame(height: geo.size.height * 0.6)
+                        .frame(width: geo.size.width * 1)
+                }
+            }
+            
+            GeometryReader { geo in
                 VStack {
                     Button("Sign In") {}
                         .buttonStyle(.bordered)
@@ -28,9 +33,8 @@ struct ContentView: View {
                         .background(Color.white)
                         .cornerRadius(40)
                 }
-                    .position(x:UIScreen.main.bounds.width/2,
-                              y:UIScreen.main.bounds.height/12)
-                
+                .frame(height: geo.size.height * 1.25)
+                .frame(width: geo.size.width * 1)
             }
         }
     }

@@ -11,6 +11,7 @@
 		9C78743B2C04FB1C007439E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78743A2C04FB1C007439E1 /* ContentView.swift */; };
 		9C78743D2C04FB1D007439E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C78743C2C04FB1D007439E1 /* Assets.xcassets */; };
 		9C7874402C04FB1D007439E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C78743F2C04FB1D007439E1 /* Preview Assets.xcassets */; };
+		9C7874472C0A5CA0007439E1 /* CredentialsPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7874462C0A5CA0007439E1 /* CredentialsPopUp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		9C78743A2C04FB1C007439E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9C78743C2C04FB1D007439E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C78743F2C04FB1D007439E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C7874462C0A5CA0007439E1 /* CredentialsPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsPopUp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				9C7874382C04FB1C007439E1 /* TWRApp.swift */,
 				9C78743A2C04FB1C007439E1 /* ContentView.swift */,
+				9C7874462C0A5CA0007439E1 /* CredentialsPopUp.swift */,
 				9C78743C2C04FB1D007439E1 /* Assets.xcassets */,
 				9C78743E2C04FB1D007439E1 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C78743B2C04FB1C007439E1 /* ContentView.swift in Sources */,
+				9C7874472C0A5CA0007439E1 /* CredentialsPopUp.swift in Sources */,
 				9C7874392C04FB1C007439E1 /* TWRApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

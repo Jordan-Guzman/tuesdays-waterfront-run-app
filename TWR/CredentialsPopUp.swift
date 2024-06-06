@@ -30,7 +30,11 @@ struct CredentialsPopUp: View {
                     text: $password
                 )
                 .padding()
-                Button("Submit") {}
+                Button(action: {}) {
+                    NavigationLink(destination: HomeScreen()) {
+                        Text("Submit")
+                    }
+                }
                     .buttonStyle(.bordered)
                     .foregroundColor(Color.white)
                     .background(Color("TWR Blue"))

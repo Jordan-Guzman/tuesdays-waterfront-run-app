@@ -10,7 +10,10 @@ import SwiftUI
 struct HomeScreen: View {
     var body: some View {
         ZStack {
-            Text("Home Screen")
+            Color("TWR Blue").ignoresSafeArea()
+            VStack {
+                Color(.white)
+            }
         }
 //        .navigationBarBackButtonHidden(true)
     }

@@ -127,6 +127,7 @@
 			mainGroup = 9C78742C2C04FB1C007439E1;
 			packageReferences = (
 				9CE842462C178D5B009F5A52 /* XCRemoteSwiftPackageReference "FSCalendar" */,
+				9C23DBF72C1F510800AAB73A /* XCRemoteSwiftPackageReference "supabase-swift" */,
 			);
 			productRefGroup = 9C7874362C04FB1C007439E1 /* Products */;
 			projectDirPath = "";
@@ -366,6 +367,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		9C23DBF72C1F510800AAB73A /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
 		9CE842462C178D5B009F5A52 /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/WenchaoD/FSCalendar";

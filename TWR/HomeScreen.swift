@@ -11,7 +11,11 @@ struct HomeScreen: View {
     var body: some View {
         ZStack {
             Color("TWR Blue").ignoresSafeArea()
-            CalendarView()
+            VStack {
+//                Color("TWR Blue")
+                CalendarView()
+            }
+//            .background(Color(.white))
         }
 //        .navigationBarBackButtonHidden(true)
     }
